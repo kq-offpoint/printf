@@ -12,6 +12,7 @@
  *
  * Return: Number of chars printed.
  */
+
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
 { /* char is stored at left and paddind at buffer's right */
@@ -57,6 +58,7 @@ int handle_write_char(char c, char buffer[],
  *
  * Return: Number of chars printed.
  */
+
 int write_number(int is_negative, int ind, char buffer[],
 	int flags, int width, int precision, int size)
 {
