@@ -8,6 +8,7 @@
  *
  * Return: Precision.
  */
+
 int get_precision(const char *format, int *i, va_list list)
 {
 	int curr_i = *i + 1;
@@ -39,4 +40,3 @@ int get_precision(const char *format, int *i, va_list list)
 
 	return (precision);
 }
-
